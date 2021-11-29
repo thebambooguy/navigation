@@ -1,0 +1,14 @@
+ENV_FILE: "Banana_Linux/Banana.x86_64"
+N_EPISODES: 2000
+MAX_T: 1000
+EPS_START: 1.0
+EPS_END: 0.01
+EPS_DECAY: 0.995
+BUFFER_SIZE: 100000    # replay buffer size
+BATCH_SIZE: 64         # mini batch size
+GAMMA: 0.95            # discount factor
+TAU: 0.005             # for soft update of target parameters
+LR: 0.0005             # learning rate
+USE_DOUBLE_DQN: True
+UPDATE_EVERY: 4        # how often to update the network
+SEED: 0
