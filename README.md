@@ -32,7 +32,9 @@ consecutive episodes.
 - **Step 1** - Set up your Python environment
   - Python 3.8 was used in the project
   - type `pip install -r requirements.txt` in command line to install requirements
-- **Step 2** - Unzip `Banana_Linux.zip` environment
+- **Step 2** - Build the Unity Environment
+  - Download the environment using this ![link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip).
+  - Unzip `Banana_Linux.zip` environment and copy it to the main folder of the project.
   - Note that provided environment will work only on Linux based machines!
 - **Step 3** - Check `main.py` and `config.yaml` to get familiarized with arguments and hyper-parameters.
   
