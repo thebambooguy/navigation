@@ -1,7 +1,6 @@
 [//]: # (Image References)
 
 
-[fixed_q_targets]: ./images/fixed_q_targets.PNG
 [best_agent_score]: ./images/best_agent_score.png
 
 # Navigation project's report
@@ -22,8 +21,6 @@ the current Q value (estimation of Q), what means that we update a guess with a 
 value of the TD target. In order to not chase a moving target, we use a separate target network with a fixed parameter
 for estimating the TD target. The target Q-Network's weight are updated less often (or more slowly) than the 
 primary Q-network.
-
-    ![Fixed Q-targets equation][fixed_q_targets]
 
 Implementation of Fixed Q-targets and solution with two separate networks, allows to introduce one from many available 
 improvements to DQN called **Double Deep Q-network**. Our algorithm is an example of Deep Q-Learning, so similarly as in
