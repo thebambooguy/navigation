@@ -94,6 +94,7 @@ class Agent:
     def learn(self, experiences, gamma):
         """
         Update value parameters using given batch of experience tuples
+        Implementation of Double DQN comes from Miguel Morales' "Deep Reinforcement Learning".
         :param tuple[torch.Variable] experiences: tuple of (s, a, r, s', done) tuples
         :param float gamma: discount factor
         """
